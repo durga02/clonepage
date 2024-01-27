@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+}
+/* --------------------------- Navigation Bar  -------------------------------------- */
+.navbar{
+    width: 100%;
+    height: 85px;
+    background-color:rgb(229, 227, 227);
+    margin-bottom: 0px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(201, 199, 199);
+    z-index: 9999;
+}
+.navbar ul{
+    margin-left: 110px;
+    display: inline-flex;
+    align-items: center;
+}
+.navbar ul li{
+    list-style:none;
+    margin: 18px;
+    font-size: 17px;
+    font-weight:400;
+    /* position: relative; */
+}
+#en{
+    margin-left: 270px;
+}
+#logo img{
+    margin-left:-150px;
+}
+.navitem:hover{
+    background-color:burlywood;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+/* --------------------------- Navigation Bar ==> Templates sub list   -------------------------------------- */
+.a{
+    text-decoration: none;
+    color: black;
+}
+.navi2{
+    display: none;
+    box-shadow: 1px 1px 0px gray,1px 1px 0px gray;
+}
+.navbar ul li:hover .navi2{
+    display: block;
+    position: absolute;
+    background-color: whitesmoke; 
+}
+.navbar ul li:hover .navi2 ul{
+    display: block;
+}
+.navi2 ul{
+    /* margin-left: -50px;
+    margin-right: -13px; */
+    margin: auto;
+}
+.navi2 ul{
+    margin-left: -39px;
+}
+.navi2 ul li{
+    margin:0px;
+    padding: 0px;
+}
+.navi2 ul .templatelist:hover{
+    background-color: rgb(120, 140, 176);
+    transition: ease-in-out 0.1s;
+}
+/* --------------------------- Navigation Bar ==> Builders sub list   -------------------------------------- */
+.a{
+    text-decoration: none;
+    color: black;
+}
+.navi3{
+    display: none;
+    box-shadow: 1px 1px 0px gray,1px 1px 0px gray;
+}
+.navbar ul li:hover .navi3{
+    display: block;
+    position: absolute;
+    background-color: whitesmoke; 
+}
+.navbar ul li:hover .navi3 ul{
+    display: block;
+}
+.navi3 ul{
+    /* margin-left: -50px;
+    margin-right: -13px; */
+    margin: auto;
+}
+.navi3 ul{
+    margin-left: -39px;
+}
+.navi3 ul li{
+    margin:0px;
+    padding: 0px;
+}
+.navi3 ul .builderslist:hover{
+    background-color: rgb(120, 140, 176);
+    transition: ease-in-out 0.1s;
+}
+/* --------------------------- Navigation Bar ==> Help sub list   -------------------------------------- */
+.a{
+    text-decoration: none;
+    color: black;
+}
+.navi4{
+    display: none;
+    box-shadow: 1px 1px 0px gray,1px 1px 0px gray;
+}
+.navbar ul li:hover .navi4{
+    display: block;
+    position: absolute;
+    background-color: whitesmoke; 
+}
+.navbar ul li:hover .navi4 ul{
+    display: block;
+}
+.navi4 ul{
+    /* margin-left: -50px;
+    margin-right: -13px; */
+    margin: auto;
+}
+.navi4 ul{
+    margin-left: -39px;
+}
+.navi4 ul li{
+    margin:0px;
+    padding: 0px;
+}
+.navi4 ul .helplist:hover{
+    background-color: rgb(120, 140, 176);
+    transition: ease-in-out 0.1s;
+}
+/* --------------------------- Navigation Bar ==> EN sub list   -------------------------------------- */
+.a{
+    text-decoration: none;
+    color: black;
+}
+.navi5{
+    display: none;
+    box-shadow: 1px 1px 0px gray,1px 1px 0px gray;
+}
+.navbar ul li:hover .navi5{
+    display: block;
+    position: absolute;
+    background-color: whitesmoke; 
+}
+.navbar ul li:hover .navi5 ul{
+    display: block;
+}
+.navi5 ul{
+    /* margin-left: -34px;
+    margin-right: 10px; */
+    margin: auto;
+}
+.navi5 ul{
+    margin-left: -39px;
+}
+.navi5 ul li{
+    margin:0px;
+    padding: 0px;
+}
+.navi5 ul .enlist:hover{
+    background-color: rgb(120, 140, 176);
+    transition: ease-in-out 0.1s;
+}
+/* --------------------------- Navigation Bar Ends    -------------------------------------- */
+/* --------------------------- Add View Space   -------------------------------------- */
+#addview{
+    width:100%;
+    height: 130px;
+    margin-top: 0px;
+    background-color: greenyellow;
+}
+#addview img{
+    width: 100%;
+}
+/* --------------------------- Add View Space ends    -------------------------------------- */
+/* --------------------------- navigation pages  -------------------------------------- */
+.navpage{
+    margin-left: 30px;
+    margin-top: 60px;
+    display:inline-flex;
+}
+.navegatepage{
+    margin-left: 10px;
+    /* font-weight: bolder; */
+}
+.navegatepage a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: lighter;
+}
+/* --------------------------- navigation pages ends   -------------------------------------- */
+/* --------------------------- Heading Image & Search  -------------------------------------- */
+#imgholder{
+    width: 95%;
+    height: 350px;
+    background-color: palevioletred;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(https://images04.nicepage.com/category/1385/layered-images-html-template-1200.jpg);
+}
+#layeres160{
+    padding-top: 100px;
+    padding-left: 380px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#templatesearch{
+    margin-left: 400px;
+    margin-top: 30px;
+    width: 480px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+    outline: 0px;
+}
+#icon{
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    margin-left:-34px;
+    padding-bottom:7px;
+    padding-top: 16.5px;
+    border-radius: 4px;
+    border: 1px solid rgb(229, 222, 222);
+    position: relative;
+}
+i{
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -10px;
+}
+#searchtext{
+    margin-left: 365px;
+    margin-top: 20px;
+    width: 560px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    /* font-weight: bolder; */
+    /* font-size: 14px;
+    line-height: 1.5;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+/* --------------------------- Heading Image & Search ends   -------------------------------------- */
+/* --------------------------- Images Container   -------------------------------------- */
+.imgcontainer{
+    /* background-color: darkolivegreen; */
+    width:1250px;
+    height:11450px;
+    margin-left: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+/* --------------------------- first column set of image   -------------------------------------- */
+.imgcontainer ul{
+    list-style: none;
+    /* display: inline-flex; */
+    position: relative;
+}
+.images1{
+    width: 260px;
+    border-radius: 6px;
+    /* margin: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+    left: 0px;
+    background-color: black;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #dedede;
+}
+.images1:hover{
+    cursor: zoom-in;
+    width: 260px;
+    opacity: 0.7;
+    background-color:white;
+}
+.imgtext1{
+    margin-left: 15px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+.addblock{
+    background-color: black;
+    height: 280px;
+    width: 260px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.addblock a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    box-shadow: 2px;
+    text-transform: uppercase;
+    background-color: chocolate;
+    border-radius: 4px;
+}
+acronym{
+    text-decoration: none;
+    transition: all 3s;
+}
+/* --------------------------- Second column set of image   -------------------------------------- */
+#imagelist2{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+.images2{
+    width: 260px;
+    border-radius: 4px;
+    /* margin: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+    left: 0px;
+    background-color: black;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #dedede;
+}
+.images2:hover{
+    cursor: zoom-in;
+    width: 260px;
+    opacity: 0.7;
+    background-color:white;
+}
+.imgtext2{
+    margin-left: 15px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+/* --------------------------- third column set of image   -------------------------------------- */
+#imagelist3{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+.images3{
+    width: 260px;
+    border-radius: 4px;
+    /* margin: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+    left: 0px;
+    background-color: black;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #dedede;
+}
+.images3:hover{
+    cursor: zoom-in;
+    width: 260px;
+    opacity: 0.7;
+    background-color:white;
+}
+.imgtext3{
+    margin-left: 15px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+.addblock3{
+    background-color: white;
+    height: 280px;
+    width: 260px;
+    color:rgb(50, 49, 49);
+    text-align: center;
+    margin-bottom: 40px;
+    border: 2px solid;
+}
+.title{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.addblock3 a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    box-shadow: 2px 2px 1px gray;
+    text-transform: uppercase;
+    background-color: chocolate;
+    border-radius: 4px;
+}
+/* --------------------------- four  column set of image   -------------------------------------- */
+#imagelist4{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+.images4{
+    width: 260px;
+    border-radius: 4px;
+    /* margin: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+    left: 0px;
+    background-color: black;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #dedede;
+    /* cursor: zoom-in; */
+}
+.images4:hover{
+    cursor: zoom-in;
+    width: 260px;
+    opacity: 0.7;
+    background-color:white;
+}
+.imgtext4{
+    margin-left: 15px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+.temp-title{
+    width: 250px;
+    font-size: 15px;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+.temp-title1{
+    width: 250px;
+    font-size: 15px;
+    /* float: left;
+    text-align: left; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+/* template category........................... */
+#tempcategory{
+    text-align: center;
+}
+/* --------------------------- Layered images website   -------------------------------------- */
+.Layered-images{
+    height: 580px;
+    width: 100%;
+    background-color:aliceblue;
+    padding-top: 30px;
+}
+.last-title{
+    text-align: center;
+}
+.matter{
+    margin: 35px;
+    font-size: 17px;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+/* -------------------------  Footer one  ---------------------------- */
+.footer-one{
+    width: 100%;
+    height: 460px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    position: relative;
+}
+h6{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ddd;
+    margin: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-one div{
+    margin-top: 33px;
+    margin-left: 48px;
+    /* margin-right: 30px; */
+}
+.footer-one div ul{
+    list-style: none;
+}
+.footer-one div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-one div ul li{
+    padding-top: 15px;
+}
+/* -------------------------  Footer Two ---------------------------- */
+.footer-two{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(71, 71, 71);
+}
+
+.footer-two ul{
+    display: flex;
+    list-style: none;
+    margin-left: 110px;
+}
+.footer-two ul li{
+    font-size: 19px;
+    margin-top: 40px;
+}
+.footer-two ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 55px;
+    font-weight: bold;
+}
+#fb img{
+    margin-left: 20px;
+    border-radius: 50%;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+  margin-top: -5px;
+}
+#fb a{
+    margin-left: 0px;
+    margin-top: 45px;
+}
+#image-fb{
+    margin-top: 6px;
+}
+/* -------------    Images Container Hover -----------------------*/
+.addblock:hover{
+    cursor: auto;
+    opacity: 1;
+    background-color: black;
+}
